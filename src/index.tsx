@@ -94,6 +94,7 @@ const Pagination = ({
               href={url(currentPage - 1)}
               passHref
               prefetch={false}
+              legacyBehavior
               {...linkProps}
             >
               <Link label='Previous page' theme={styles}>
